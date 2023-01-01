@@ -1,0 +1,17 @@
+{
+  "name": "nginx",
+  "scripts": {
+    "edgio:start": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:prod": "edgio run -p",
+    "edgio:deploy": "edgio deploy",
+    "format": "prettier --write '*/*' --ignore-unknown"
+  },
+  "devDependencies": {
+    "@edgio/cli": "latest",
+    "@edgio/core": "latest",
+    "@edgio/devtools": "latest",
+    "@edgio/prefetch": "latest",
+    "prettier": "latest"
+  }
+}
